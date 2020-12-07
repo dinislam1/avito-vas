@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttons Test Suite should save image 1`] = `
+<div
+  className="button__export d-flex my-2"
+>
+  <button
+    className="btn btn-success btn-save"
+    onClick={[Function]}
+    type="button"
+  >
+    Сохранить как png
+  </button>
+  <button
+    className="btn btn-success btn-copy"
+    onClick={[Function]}
+    type="button"
+  >
+    Скопировать тег
+  </button>
+  <button
+    className="btn btn-success btn-json"
+    onClick={[Function]}
+    type="button"
+  >
+    Скопировать JSON
+  </button>
+</div>
+`;

@@ -1,0 +1,31 @@
+.text-bar {
+  width: 200px;
+  padding: 8px 10px;
+  box-sizing: initial;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.15) 0px 8px 16px;
+}
+
+.text-bar input,
+.text-bar select {
+  box-shadow: rgb(204, 204, 204) 0px 0px 0px 1px inset;
+  font-size: 12px;
+}
+
+.text-bar label {
+  display: flex;
+  text-align: left;
+  font-size: 10px;
+  color: rgb(34, 34, 34);
+}
+
+.text-bar button {
+  font-size: 13px;
+}
+
+.text-bar textarea {
+  resize: none;
+  height: 90px !important;
+}
